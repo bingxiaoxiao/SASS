@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bingxiaoxiao</title>
+    <link rel="stylesheet" href="../css/demo.css">
+</head>
+
+<body>
+    <!-- 使用变量 -->
+    <div class="selected">使用变量</div>
+    <!-- 嵌套CSS 规则 -->
+    <div id="content">
+        <article class="article ">
+            <h1>我就是标题</h1>
+            <p class="">bingxiaoxiao , hello word</p>
+        </article>
+        <aside class="footer">
+            版权 2010-2019
+        </aside>
+    </div>
+    <!-- 子组合选择器和同层组合选择器：>、+和~;
+    article section { margin: 5px }
+    article > section { border: 1px solid #ccc }
+    你可以用子组合选择器>选择一个元素的直接子元素。上例中，第一个选择器会选择article下的所有命中section选择器的元素。
+    第二个选择器只会选择article下紧跟着的子元素中命中section选择器的元素。
+    可以用同层相邻组合选择器+选择header元素后紧跟的p元素：header + p { font-size: 1.1em }
+    你也可以用同层全体组合选择器~，选择所有跟在article后的同层article元素，不管它们之间隔了多少其他元素：article ~ article { border-top: 1px dashed #ccc } -->
+    
+
+
+    <!-- css中注释的作用包括帮助你组织样式、以后你看自己的代码时明白为什么这样写，以及简单的样式说明。但是，你并不希望每个浏览网站源码的人都能看到所有注释。
+
+    sass另外提供了一种不同于css标准注释格式/* ... */的注释语法，即静默注释，其内容不会出现在生成的css文件中。静默注释的语法跟JavaScriptJava等类C的语言中单行注释的语法相同，
+    它们以//开头，注释内容直到行末。
+    body {
+      color: #333; // 这种注释内容不会出现在生成的css文件中
+      padding: 0; /* 这种注释内容会出现在生成的css文件中 */
+    } -->
+
+    <!-- 混合器 -->
+    <div class="notice">我是混合器</div>
+    <ul class="plain"><li>当一个包含css规则的混合器通过@include包含在一个父规则中时，在混合器中的规则最终会生成父规则中的嵌套规则</li></ul> 
+
+    <!-- 继承 -->
+    <div class="seriousError">我要继承</div>
+
+</body>
+
+</html>

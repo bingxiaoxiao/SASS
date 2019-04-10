@@ -1,0 +1,19 @@
+.selected { border: 1px solid #F90; }
+
+#content article h1 { color: #F90; }
+
+#content article p { font-size: 18px; background: #F90; }
+
+#content article:hover { color: red; }
+
+#content aside { background-color: gold; color: red; text-decoration: underline; }
+
+.notice { background-color: green; border: 2px solid #00aa00; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+
+ul.plain { color: red; list-style: none; }
+
+ul.plain li { list-style-image: none; list-style-type: none; margin-left: 0px; }
+
+.error, .seriousError { border: 1px solid red; background-color: #fdd; }
+
+.seriousError { border-width: 3px; }
